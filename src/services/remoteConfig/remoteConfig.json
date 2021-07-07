@@ -1,0 +1,116 @@
+[
+  {
+    "name": "name",
+    "order": 1,
+    "label": "Nombre",
+    "icon": "AiOutlineUserAdd",
+    "component": "Name",
+    "path": "/steps/name",
+    "title": "Ingrese Su nombre",
+    "subtitle": ""
+  },
+  {
+    "name": "email",
+    "order": 2,
+    "label": "Correo",
+    "icon": "AiOutlineMail",
+    "component": "Email",
+    "path": "/steps/email",
+    "title": "Ingrese su email",
+    "subtitle": ""
+  },
+  {
+    "name": "address",
+    "label": "Direccion",
+    "icon": "FaAddressBook",
+    "order": 3,
+    "component": "Address",
+    "path": "/steps/address",
+    "title": "Ingrese la direccion del imueble",
+    "subtitle": ""
+  },
+  {
+    "name": "floor",
+    "label": "Piso",
+    "icon": "BsBuilding",
+    "order": 4,
+    "component": "Floor",
+    "path": "/steps/floor",
+    "title": "Ingrese el piso de su inmueble",
+    "subtitle": ""
+  },
+  {
+    "name": "areas",
+    "label": "Areas",
+    "icon": "SiQzone",
+    "order": 5,
+    "component": "Areas",
+    "path": "/steps/areas",
+    "title": "Ingrese las Areas de su inmueble",
+    "subtitle": "",
+    "options": [
+      {
+        "id": "zona_bbq",
+        "name": "Zona BBQ"
+      },
+      {
+        "id": "salon_comunal",
+        "name": "Salon Comunal"
+      },
+      {
+        "id": "parque_de_juegos",
+        "name": "Parque de juegos"
+      }
+    ]
+  },
+  {
+    "name": "parkingLot",
+    "label": "Parqueadero",
+    "icon": "MdLocalParking",
+    "order": 6,
+    "component": "ParkingLot",
+    "path": "/steps/parking-lot",
+    "title": "Su inmueble tiene parqueadero?",
+    "subtitle": ""
+  },
+  {
+    "name": "price",
+    "order": 7,
+    "label": "Precio",
+    "icon": "HiCurrencyDollar",
+    "component": "Price",
+    "path": "/steps/price",
+    "title": "Indique el precio de su inmueble",
+    "subtitle": ""
+  },
+  {
+    "name": "photo",
+    "label": "Foto",
+    "order": 8,
+    "icon": "HiOutlinePhotograph",
+    "component": "Photo",
+    "path": "/steps/photo",
+    "title": "Suba una foto de su inmueble",
+    "subtitle": ""
+  },
+  {
+    "name": "lift",
+    "order": 9,
+    "icon": "GiLift",
+    "label": "Ascensor",
+    "component": "Lift",
+    "path": "/steps/lift",
+    "title": "Su inmueble tiene Ascensor?",
+    "subtitle": ""
+  },
+  {
+    "name": "final",
+    "order": 10,
+    "icon": "AiOutlineSend",
+    "label": "Final",
+    "component": "FinalStep",
+    "path": "/steps/final",
+    "title": "Confirme Sus datos",
+    "subtitle": ""
+  }
+]
